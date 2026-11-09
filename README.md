@@ -15,3 +15,8 @@ Jangan pernah menaruh kunci Strava di file kode.
 
 ## Huawei Watch Fit 3
 Tab Timeline: tombol "Salin untuk Huawei" per sesi (pemanasan, inti, pendinginan) untuk dibuat sebagai kursus lari kustom di Huawei Health. File `.ics` mengisi kalender HP dengan alarm 04:00 (lari) dan 19:00 (strength). Impor file latihan otomatis ke jam tidak saya jamin didukung Huawei.
+
+## Google Sheets (otomatis)
+Repo harus **public**. Di Google Sheets sel A1 tempel (atau pakai tombol "Salin rumus Google Sheets" di tab Timeline):
+`=IMPORTDATA("https://raw.githubusercontent.com/Damasangga/run-coach/main/timeline.csv")`
+Kolom `status` (done/part/miss/todo), `actual_km`, `avg_pace`, `avg_hr` ikut ter-update setiap sinkron (Google memuat ulang IMPORTDATA sekitar tiap jam). Cron GitHub tiap 3 jam bisa terlambat beberapa menit.
