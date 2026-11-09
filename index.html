@@ -1,0 +1,16 @@
+<!doctype html><html lang="id"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Run Coach — Road to Marathon</title>
+<style>:root{--bg:#f6f7f9;--cd:#fff;--tx:#1b2430;--mu:#667085;--ac:#2f6fed;--ok:#2f6fed;--wa:#f08a24;color-scheme:light}
+@media(prefers-color-scheme:dark){:root{--bg:#10151c;--cd:#18202b;--tx:#e8edf3;--mu:#98a2b3;--ac:#5b9bff;--ok:#5b9bff;color-scheme:dark}}
+*{box-sizing:border-box}body{margin:0;font:16px/1.5 system-ui,sans-serif;background:var(--bg);color:var(--tx)}
+header{padding:20px 16px 8px;max-width:900px;margin:auto}h1{margin:0;font-size:1.4rem}main{max-width:900px;margin:auto;padding:8px 16px 80px}
+nav{position:sticky;top:0;display:flex;gap:6px;padding:8px 16px;background:var(--bg);max-width:900px;margin:auto}
+nav button{flex:1;padding:10px;border:0;border-radius:10px;background:var(--cd);color:var(--tx);font:inherit;cursor:pointer}nav .on{background:var(--ac);color:#fff}
+.card{background:var(--cd);border-radius:14px;padding:14px 16px;margin:10px 0}.card h3{margin:0 0 6px;font-size:.85rem;color:var(--mu);text-transform:uppercase;letter-spacing:.04em}
+.g{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:10px}.g .card{margin:0}.mu{color:var(--mu);font-size:.9rem}svg{width:100%;height:auto}
+button{font:inherit}.card button{margin-top:6px;padding:8px 12px;border:0;border-radius:8px;background:var(--ac);color:#fff;cursor:pointer}
+details{background:var(--cd);border-radius:14px;padding:10px 14px;margin:10px 0}summary{cursor:pointer;font-weight:600}details .card{background:var(--bg)}
+.ic{font-size:2rem}.lock{opacity:.55}.pb{height:8px;background:var(--bg);border-radius:6px;overflow:hidden}.pb i{display:block;height:100%;background:var(--ac)}</style></head><body>
+<header><h1>🏃 Road to Marathon</h1><div class="mu">Target 13 Juni 2027 · bikin tiap lari terasa menang kecil</div></header>
+<nav><button class="on" data-t="dash">Dashboard</button><button data-t="tl">Timeline</button><button data-t="ach">Achievement</button></nav>
+<main><section id="dash"></section><section id="tl" hidden></section><section id="ach" hidden></section></main>
+<script src="data.js"></script><script src="app.js"></script></body></html>

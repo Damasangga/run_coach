@@ -1,0 +1,17 @@
+window.DATA={athlete:"Damas",updated:"2026-11-09",
+pr:{"5K":"25:22","10K":"59:09","Half Marathon":"2:05:25"},
+runs:[
+{d:"2026-11-07",km:10.04,pace:387,hr:155,n:"10K"},
+{d:"2026-11-01",km:5.04,pace:397,hr:140,n:"5K"},
+{d:"2026-10-31",km:7.17,pace:402,hr:156,n:"7K"},
+{d:"2026-10-24",km:5.05,pace:328,hr:null,n:"5K"},
+{d:"2026-10-16",km:2.28,pace:410,hr:null,n:"Indoor run"},
+{d:"2026-10-10",km:12.70,pace:381,hr:null,n:"Long Run 12K"},
+{d:"2026-10-04",km:13.19,pace:406,hr:147,n:"Long Run 13K"},
+{d:"2026-09-27",km:5.14,pace:341,hr:null,n:"PLN Electric Run 5K"},
+{d:"2026-09-22",km:4.01,pace:334,hr:null,n:"Interval 8x300m"},
+{d:"2026-09-20",km:6.21,pace:367,hr:null,n:"Outdoor run"},
+{d:"2026-09-19",km:3.98,pace:306,hr:null,n:"Outdoor run"},
+{d:"2026-09-17",km:3.46,pace:384,hr:null,n:"Outdoor run"},
+{d:"2026-09-16",km:7.10,pace:381,hr:null,n:"Outdoor run"},
+{d:"2026-09-13",km:15.20,pace:429,hr:null,n:"Long run 15km"}]};
