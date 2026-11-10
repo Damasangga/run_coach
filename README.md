@@ -17,6 +17,6 @@ Jangan pernah menaruh kunci Strava di file kode.
 Tab Timeline: tombol "Salin untuk Huawei" per sesi (pemanasan, inti, pendinginan) untuk dibuat sebagai kursus lari kustom di Huawei Health. File `.ics` mengisi kalender HP dengan alarm 04:00 (lari) dan 19:00 (strength). Impor file latihan otomatis ke jam tidak saya jamin didukung Huawei.
 
 ## Google Sheets (otomatis)
-Repo harus **public**. Di Google Sheets sel A1 tempel (atau pakai tombol "Salin rumus Google Sheets" di tab Timeline):
+Repo harus **public**. Di tab Timeline, tombol **Spreadsheet** membuka spreadsheet baru di akun Google dan menyalin rumus impor ke clipboard. Tempel rumus di sel A1 untuk menampilkan timeline. Alternatifnya, gunakan tombol "Salin rumus Google Sheets" dan tempel sendiri:
 `=IMPORTDATA("https://raw.githubusercontent.com/Damasangga/run_coach/main/timeline.csv")`
 Kolom `status` (done/part/miss/todo), `actual_km`, `avg_pace`, `avg_hr` ikut ter-update setiap sinkron (Google memuat ulang IMPORTDATA sekitar tiap jam). Cron GitHub tiap 3 jam bisa terlambat beberapa menit.
