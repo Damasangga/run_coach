@@ -2,9 +2,9 @@
 Dashboard statis (HTML/JS) untuk GitHub Pages: Dashboard, Timeline Training (30 minggu), Achievement.
 
 ## Deploy
-1. Buat repo baru di github.com/Damasangga, mis. `run-coach`, lalu upload isi folder ini.
+1. Buat repo baru di github.com/Damasangga, mis. `run_coach`, lalu upload isi folder ini.
 2. Settings → Pages → Deploy from branch → `main` / root.
-3. Buka https://damasangga.github.io/run-coach/
+3. Buka https://damasangga.github.io/run_coach/
 
 ## Sinkron Strava otomatis (setiap 3 jam)
 1. Di strava.com/settings/api buat ulang Client Secret, lalu ambil Client ID.
@@ -18,5 +18,5 @@ Tab Timeline: tombol "Salin untuk Huawei" per sesi (pemanasan, inti, pendinginan
 
 ## Google Sheets (otomatis)
 Repo harus **public**. Di Google Sheets sel A1 tempel (atau pakai tombol "Salin rumus Google Sheets" di tab Timeline):
-`=IMPORTDATA("https://raw.githubusercontent.com/Damasangga/run-coach/main/timeline.csv")`
+`=IMPORTDATA("https://raw.githubusercontent.com/Damasangga/run_coach/main/timeline.csv")`
 Kolom `status` (done/part/miss/todo), `actual_km`, `avg_pace`, `avg_hr` ikut ter-update setiap sinkron (Google memuat ulang IMPORTDATA sekitar tiap jam). Cron GitHub tiap 3 jam bisa terlambat beberapa menit.
